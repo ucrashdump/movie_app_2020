@@ -8,5 +8,5 @@ function Navigation(){
         <Link to="/about">About</Link>
     </div>
 }
-
+//<Link to={{pathname:"/about",state:{fromNavigation:true}}}>About</Link>fromNavigation은 임의의 값 으로 이 또한 전달해준다.
 export default Navigation;
